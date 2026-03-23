@@ -1,0 +1,59 @@
+/* nota # þegar element er með id */
+/* nota . þegar element er með class */
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(255, 242, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.topsection {
+  display: flex;
+}
+
+.blabla {
+  padding: 50px;
+
+}
+
+.listi1 {
+  background-color: rgb(222, 150, 255);
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  border: 2px dotted black;
+    padding: 1%;
+
+}
+.listi2 {
+  background-color: rgb(204, 94, 255);
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  border: 2px double black;
+    padding: 2%;
+}
+
+footer {
+  display: flex;
+  color: white;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: rgb(255, 81, 232);
+}
+
+
+
+
+
